@@ -106,7 +106,7 @@ body {
       color: white;
     }
     .absent {
-      background-color: grey;
+      background-color: black;
       color: white;
     }
 
@@ -114,6 +114,13 @@ body {
   ul, li {
     list-style: none;
   }
+}
+
+#header-image {
+  height: 300px;
+  display:block;
+  margin-left: auto;
+    margin-right: auto;
 }
 
 #groups {
@@ -136,5 +143,9 @@ body {
 #generate-region{
   h2 {
     padding-top: 30px;
+  }
+  #generate-groups{
+  padding: 75px;
+font-size: 400%;
   }
 }
